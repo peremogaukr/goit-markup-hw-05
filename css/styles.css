@@ -845,3 +845,27 @@ ul {
     fill: transparent;
 }
 
+.checkbox-span:checked {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
+.span-a {
+    color: #4d5ae5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

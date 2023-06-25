@@ -864,11 +864,33 @@ ul {
     fill: transparent;
 }
 
-.checkbox-input:checked {
+
+
+
+
+
+
+
+
+.checkbox-input + .checkbox-label > .span:checked {
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: #f4f4fd;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .span-a {
     color: #4d5ae5;

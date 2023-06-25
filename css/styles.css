@@ -872,7 +872,8 @@ ul {
 
 
 
-.checkbox-input + .checkbox-label > .span:checked {
+.checkbox-input:checked 
++ .checkbox-label > .checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;

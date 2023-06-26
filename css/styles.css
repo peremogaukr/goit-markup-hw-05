@@ -546,7 +546,7 @@ ul {
 }
 
 .div-footer-two {
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 .footer-p-two {
@@ -738,30 +738,12 @@ ul {
     fill: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-
 .window-div {
     padding-top: 72px;
     padding-right: 24px;
     padding-bottom: 24px;
     padding-left: 24px;
 }
-
-
-
-
-
-
-
-
-
 
 .window-p {
     font-weight: 500;
@@ -812,7 +794,11 @@ ul {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: #4D5AE5;
+    fill: #2E2F42;
+}
+
+.window-div-input:focus .input-svg {
+    fill: #4D5AE5;  
 }
 
 .div-form-four {
@@ -862,15 +848,8 @@ ul {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
-
-
-
-
-
-
-
-
 
 .checkbox-input:checked 
 + .checkbox-label > .checkbox-span {
@@ -878,20 +857,6 @@ ul {
     border: none;
     fill: #f4f4fd;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .span-a {
     color: #4d5ae5;
@@ -912,13 +877,9 @@ ul {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: auto;
+    margin-left: auto;
 }
-
-
-
-
-
-
 
 
 

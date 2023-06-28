@@ -797,7 +797,7 @@ ul {
     fill: #2E2F42;
 }
 
-.window-div-input:focus .input-svg {
+.window-div-input:focus + .input-svg {
     fill: #4D5AE5;  
 }
 
